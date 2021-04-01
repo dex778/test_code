@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 class="titlePage">Welcome to: Guess the Image!</h1>
+
+<h3 class="instructions">Your instructions are: Click the Hint button, make a guess, click the Picture to reveal..</h3>
+
+<!-- Buttons div  -->
+<div class=" d-flex justify-content-around">
+
+<button class="btn 1" type="button" onclick="myHint()">Hint</button>
+<button class="btn 2" type="button" onclick="alert('Hello world!')">Hint</button>
+
+<button class="btn 3" type="button" onclick="alert('Hello world!')">Hint</button>
+
+</div>
+<section class="firstSection">
+<!-- First section for flip cards -->
+
+<div class=" d-flex justify-content-around">
+
+<div class="flip-card">
+
+  <div class="flip-card-inner">
+
+    <div class="flip-card-front">
+        <h1>There's an image behind here</h1> 
+        <p>Click</p> 
+        <p>and Find out!</p>
+    </div>
+
+    <div class="flip-card-back">
+        <img class="myImg"src="" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+
+  </div>
+
+</div>
+
+    <div class="flip-card">
+
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+              <p>We love that guy</p>
+          </div>
+      
+          <div class="flip-card-back">
+              <img class="myImg"src="" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+        </div>
+      
+      </div>
+
+<!-- </div> -->
+
+
+<!-- <div class="d-flex justify-content-between"> -->
+
+    <div class="flip-card">
+
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+              <p>We love that guy</p>
+          </div>
+      
+          <div class="flip-card-back">
+              <img class="myImg"src="" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+        </div>
+      
+      </div>
+
+</div>
+
+</section>
+<!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
